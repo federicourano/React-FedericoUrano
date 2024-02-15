@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import Navbar from './components/Navbar/Navbar'
 
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
 
   return (
     <>
+      <Navbar/>
       <h1>Ecommerce-Urano</h1>
     </>
   )
