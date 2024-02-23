@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import Navbar from './components/Navbar/Navbar'
 
+import Navbar from './components/Navbar/Navbar'
+import ItemListConatiner from './components/ItemListContainer/ItemListContainer'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Navbar/>
-      <h1>Ecommerce-Urano</h1>
+      <ItemListConatiner greeting="Bienvenidos!"/>
     </>
   )
 }
