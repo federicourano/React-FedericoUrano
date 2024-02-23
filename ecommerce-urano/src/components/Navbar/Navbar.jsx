@@ -2,7 +2,6 @@ import clase from './Navbar.module.css'
 import CartWidget from '../CartWidget/CartWidget'
 
 const Navbar = () => {
-    console.log(clase)
     return (
         <header className={ clase.header }>
             <h4>Ecommerce Federico Urano</h4>
