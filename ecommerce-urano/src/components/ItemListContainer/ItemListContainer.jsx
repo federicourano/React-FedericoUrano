@@ -1,6 +1,6 @@
 import clase from './ItemListContainer.module.css'
 
-const ItemListContiner = (props) => {
+const ItemListContainer = (props) => {
     return(
         <div className={ clase.div }>
             <h1>{ props.greeting }</h1>
@@ -8,4 +8,4 @@ const ItemListContiner = (props) => {
     )
 }
 
-export default ItemListContiner
+export default ItemListContainer
