@@ -1,16 +1,18 @@
 import clase from './Navbar.module.css'
 import CartWidget from '../CartWidget/CartWidget'
+import ButtonSecondary from '../Button/ButtonSecondary'
+import LogoHomePage from '../LogoHomePage/LogoHomePage'
 
 const Navbar = () => {
     return (
         <header className={ clase.header }>
-            <h4>Ecommerce Federico Urano</h4>
+            <LogoHomePage />
             <input className="form-control w-25 text-white bg-dark border-b-2 border-white" type="search" placeholder="Buscar" aria-label="Search"></input>
             <nav className={ clase.nav }>
                 <ul>
-                    <li><a className='btn btn-primary'>CPU</a></li>
-                    <li><a className='btn btn-primary'>RAM</a></li>
-                    <li><a className='btn btn-primary'>GPU</a></li>
+                    <li><ButtonSecondary label="CPU"/></li>
+                    <li><ButtonSecondary label="RAM"/></li>
+                    <li><ButtonSecondary label="GPU"/></li>
                 </ul>
             </nav>
             <CartWidget />
