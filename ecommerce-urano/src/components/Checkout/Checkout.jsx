@@ -88,7 +88,7 @@ const Checkout = () => {
             <h1>Checkout</h1>
             <h2>Formulario</h2>
             <form action="">
-                <label htmlFor="nombre">Nombre: </label>
+                <label htmlFor="nombre">Nombre completo: </label>
                 <input type="text" id="nombre" name="nombre" onChange={(e) => setNombre(e.target.value)}/>
                 <label htmlFor="Email">Email: </label>
                 <input type="email" id="email" name="email" onChange={(e) => setEmail(e.target.value)}/>

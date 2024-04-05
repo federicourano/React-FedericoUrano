@@ -8,7 +8,6 @@ const Navbar = () => {
     return (
         <header className={ clase.header }>
             <LogoHomePage />
-            <input className="form-control w-25 text-white bg-dark border-b-2 border-white" type="search" placeholder="Buscar" aria-label="Search"></input>
             <nav className={ clase.nav }>
                 <ul>
                     <Link to={"/category/CPU"}><ButtonSecondary label="CPU"/></Link>
